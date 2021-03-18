@@ -6,6 +6,8 @@ public class Location {
 	private String city;
 	private int FlatNo;
 	
+	private String postalAddress;
+	
 	
 	public void setCity(String city) {
 		
@@ -29,4 +31,12 @@ public void setFlatNo(int FlatNo) {
 	}
 	
 	
+	public void setPostalAdress(String postalAddress) {
+		 this.postalAddress=postalAddress;
+	}
+	
+	public String getpostalAddresss() {
+		
+		return postalAddress; 
+	}
 }
